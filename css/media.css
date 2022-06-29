@@ -1,0 +1,571 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.99px) {
+    /*header css*/
+    header{
+        padding: 10px 0px;
+    }
+    .logo h1 {
+        font-size: 24px;
+    }
+    .menu ul li a{
+        padding: 10px 0px !important;
+    }
+    .d-menu{
+        width: 200px;
+    }
+    .d-icon{
+        padding-right: 10px;
+    }
+    .d-menu[data-bs-popper] {
+        top: -10px;
+        left: 70px;
+    }
+
+    /*banner css*/
+    .banner {
+        height: 100vh;
+        padding: 85px 0px 30px;
+    }
+    .bs-btn {
+        margin-top: -62px;
+    }
+    .b-content h1 {
+        font-size: 27px;
+    }
+    .b-content p {
+        padding: 20px 0px 30px;
+        padding-right: 0px;
+    }
+    .b-content .b-btn {
+        padding: 12px 20px;
+    }
+     /*welcome css*/
+    .welcome {
+        padding-bottom: 60px;
+    }
+    .w-content h2 {
+        font-size: 26px;
+    }
+    .w-content p {
+        padding: 20px 0px;
+    }
+    .w-item {
+        margin: 40px 10px 0;
+    }
+    /*about css*/
+    .about {
+        padding-bottom: 65px;
+    }
+    .about-content {
+        text-align: center;
+        padding-left: 0px; 
+        padding-top: 20px;
+    }
+    .about-content h2{
+        font-size: 24px;
+    }
+    .about-content p {
+        padding-top: 20px !important;
+    }
+    .about-content .a-btn {
+        margin-top: 20px !important;
+    }
+    .about-content .a-btn{
+        padding: 10px 20px;
+    }
+     /*recent work css*/
+    .gallery ul{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    /*choose css*/
+    .choose {
+        padding-bottom: 65px;
+    }
+    .choose .w-content {
+        margin-bottom: 30px;
+    }
+    .c-item i {
+        font-size: 36px;
+    }
+    .c-item p {
+        margin: 20px 0px !important;
+    }
+    /*team css*/
+    .team .w-content {
+        margin-bottom: 0px;
+    }
+    .team-member {
+        position: relative;
+        margin: 40px 5px 0px;
+    }
+    .team-desc {
+        padding: 5px 16px;
+        margin-right: 0px;
+    }
+    .team-desc h4{
+        font-size: 16px;
+    }
+    .team-desc p{
+        margin: 10px 0px !important;
+    }
+     /*pricing css*/
+     .pricing {
+        padding-bottom: 65px;
+    }
+    .pricing .w-content {
+        margin-bottom: 20px;
+    }
+    .p-item .p-btn {
+        padding: 10px 56px;
+        margin-top: 24px;
+    }
+    .cost {
+        font-size: 30px;
+        margin: 16px 0px !important;
+    }
+    /*devider css*/
+    .d-content {
+        display: block !important;
+        text-align: center;
+    }
+    .d-content h4 {
+        font-size: 16px;
+    }
+    .d-content .d-btn {
+        padding: 10px 30px;
+        margin-top: 10px;
+    }
+    /*slider css*/
+    .slider {
+        padding: 65px 0px;
+    }
+    .s-content {
+        padding: 15px 10px;
+    }
+    .s-desc {
+        margin-top: 10px;
+    }
+    .s-desc .p1 {
+        font-size: 16px;
+        margin: 5px 0px !important;
+    }
+    .s-desc .p2 {
+        font-size: 16px;
+    }
+    .s-desc .p3 {
+        margin-top: 7px !important;
+        line-height: 24px;
+    }
+    .sl-btn{
+        padding: 16px 36px !important;
+        margin-top: 20px;
+    }
+    .s-content {
+        margin-right: 0px;
+    }
+    /*contact css*/
+    .contact {
+        padding-bottom: 60px;
+    }
+    .contact-box {
+        padding: 40px 0px;
+    }
+    .c-line {
+        width: 160px;
+    }
+    .box-content h2 {
+        font-size: 23px;
+        top: -14px;
+    }
+    .fc {
+        padding: 6px 20px;
+    }
+    .mt-5 {
+        margin-top: 1.5rem !important;
+    }
+    /*footer css*/
+    .top-footer {
+        margin-bottom: 20px;
+        padding-bottom: 70px;
+    }
+    .ft-content p {
+        padding: 30px 10px;
+    }
+    .ft-icon a i {
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .f-list{
+        text-align: center !important;
+    }
+    .copyright p {
+        color: #fff;
+        font-size: 14px;
+    }
+    .f-list ul li {
+        color: #fff;
+        margin: 0px 8px;
+    }
+
+
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.99px) {
+    /*header css*/
+    header{
+        padding: 10px 0px;
+    }
+    .menu ul li a{
+        padding: 10px 0px !important;
+    }
+    .d-menu{
+        width: 300px;
+    }
+    .d-menu[data-bs-popper] {
+        top: 35px;
+        left: 0px;
+    }
+    /*banner css*/
+    .banner {
+        height: 100vh;
+        padding: 85px 0px 30px;
+    }
+    .bs-btn {
+        margin-top: -62px;
+    }
+    .b-content h1 {
+        font-size: 40px;
+    }
+    .b-content p {
+        padding: 40px 0px;
+        padding-right: 0px;
+    }
+    .b-content .b-btn {
+        padding: 12px 20px;
+    }
+    /*welcome css*/
+    .w-content h2 {
+        font-size: 25px;
+    }
+    .w-content p {
+        padding: 20px 0px;
+    }
+    .w-item {
+        margin: 60px 0px 0;
+    }
+    .w-item p {
+        padding: 0px 0px;
+    }
+    /*about css*/
+    .about-content {
+        padding-left: 0px; 
+        padding-top: 40px;
+    }
+    /*recent work css*/
+    .gallery ul{
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    /*choose css*/
+    .choose .w-content {
+        margin-bottom: 30px;
+    }
+    .c-item i {
+        font-size: 36px;
+    }
+    .c-item p {
+        margin: 20px 0px !important;
+    }
+    /*team css*/
+    .team-desc {
+        padding: 5px 16px;
+        margin-right: 0px;
+    }
+    .team-desc h4{
+        font-size: 16px;
+    }
+    .team-desc p{
+        margin: 10px 0px !important;
+    }
+    /*pricing css*/
+    .p-item {
+        padding: 40px 20px;
+    }
+    .p-item .p-btn {
+        padding: 10px 50px;
+        margin-top: 24px;
+    }
+    .cost {
+        font-size: 30px;
+        margin: 16px 0px !important;
+    }
+    /*devider css*/
+    .d-content h4 {
+        font-size: 16px;
+    }
+    .d-content .d-btn {
+        padding: 10px 30px;
+    }
+    /*slider css*/
+    .s-desc {
+        margin-top: 20px;
+    }
+    .s-desc .p1 {
+        font-size: 18px;
+        margin: 10px 0px !important;
+    }
+    .s-desc .p3 {
+        margin-top: 9px !important;
+        line-height: 24px;
+    }
+    .sl-btn{
+        padding: 16px 36px !important;
+        margin-top: 20px;
+    }
+    .s-content {
+        margin-right: 0px;
+    }
+    /*contact css*/
+    .mt-5 {
+        margin-top: 1.5rem !important;
+    }
+    /*footer css*/
+    .top-footer {
+        margin-bottom: 20px;
+        padding-bottom: 70px;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .f-list{
+        text-align: center !important;
+    }
+
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.99px) {
+    /*header css*/
+    .menu ul li a{
+        padding: 10px 0px !important;
+    }
+    .d-menu[data-bs-popper] {
+        top: 35px;
+        left: 0px;
+    }
+    /*banner css*/
+    .b-content h1 {
+        font-size: 50px;
+    }
+    .b-content p {
+        padding: 40px 0px;
+        padding-right: 130px;
+    }
+    .b-content .b-btn {
+        padding: 12px 20px;
+    }
+    /*welcome css*/
+    .w-content p {
+        padding: 25px 0px;
+    }
+    .w-item {
+        margin: 60px 10px 0;
+    }
+    .w-item p{
+        margin-bottom: 40px !important;
+        padding: 0px 10px;
+    }
+    .w-icon {
+        width: 23%;
+    }
+    /*about css*/
+    .about-content {
+        padding-left: 0px; 
+        padding-top: 40px;
+    }
+    /*recent work css*/
+    .gallery ul {
+        margin-top: 50px;
+        margin-left: 100px !important;
+    }
+    /*team css*/
+    .team-desc {
+        padding: 5px 16px;
+        margin-right: 0px;
+    }
+    .team-desc h4{
+        font-size: 16px;
+    }
+    .team-desc p{
+        margin: 10px 0px !important;
+    }
+    /*pricing css*/
+    .p-item {
+        padding: 40px 50px;
+    }
+    /*devider css*/
+    .d-content h4 {
+        font-size: 16px;
+    }
+    .d-content .d-btn {
+        padding: 10px 30px;
+    }
+    /*slider css*/
+    .s-desc {
+        margin-top: 20px;
+    }
+    .s-desc .p1 {
+        font-size: 18px;
+        margin: 10px 0px !important;
+    }
+    .s-desc .p3 {
+        margin-top: 9px !important;
+        line-height: 24px;
+    }
+    .sl-btn{
+        padding: 16px 36px !important;
+        margin-top: 20px;
+    }
+    .s-content {
+        margin-right: 0px;
+    }
+    /*contact css*/
+    .mt-5 {
+        margin-top: 1.5rem !important;
+    }
+    /*footer css*/
+    .copyright {
+        text-align: center;
+    }
+    .f-list{
+        text-align: center !important;
+    }
+
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.99px) {
+    /*banner*/
+    .b-content h1 {
+        font-size: 50px;
+    }
+    .b-content p {
+        padding-right: 70px;
+    }
+    .bs-btn {
+        margin-top: -70px;
+    }
+
+    /*welcome css*/
+    .w-content p {
+        padding: 40px 0px;
+    }
+    .w-item {
+        margin: 60px 0px 0;
+    }
+    .w-item p {
+        padding: 0px 0px;
+    }
+    /*about css*/
+    
+    .about-content p {
+        padding-top: 40px !important;
+    }
+    .about-content .a-btn {
+        margin-top: 40px !important;
+    }
+    .desc{
+        display: none;
+    }
+    /*recent work css*/
+    .gallery ul{
+        margin-left: 200px;
+    }
+    /*team css*/
+    .team-member{
+        margin-right: 0px;
+    }
+    .team-desc {
+        padding: 5px 16px;
+        margin-right: 0px;
+    }
+    .team-desc h4{
+        font-size: 16px;
+    }
+    .team-desc p{
+        margin: 10px 0px !important;
+    }
+    /*pricing css*/
+    .p-item {
+        padding: 40px 18px;
+    }
+    .p-item .p-btn {
+        padding: 10px 38px;
+        margin-top: 24px;
+    }
+    .cost {
+        font-size: 30px;
+        margin: 16px 0px !important;
+    }
+     /*slider css*/
+    .s-desc .p1 {
+        font-size: 18px;
+        margin: 10px 0px !important;
+    }
+    .s-desc .p3 {
+        margin-top: 9px !important;
+        line-height: 24px;
+    }
+    /*footer css*/
+    .ft-content p {
+        color: #fff;
+        padding: 40px 38px;
+    }
+    .f-list ul li {
+        color: #fff;
+        margin: 0 16px;
+    }
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+    /*banner css*/
+    .b-content p {
+        padding-right: 110px;
+    }
+    .bs-btn {
+        margin-top: -70px;
+    }
+    /*recent work css*/
+    .gallery ul {
+        margin-left: 300px;
+    }
+    /*team css*/
+
+    /*.team-desc {
+        margin-right: 6px;
+    }*/
+    /*pricing css*/
+    .p-item .p-btn {
+        padding: 12px 40px;
+    }
+    /*slider css*/
+    .s-desc .p1 {
+        font-size: 18px;
+        margin: 10px 0px !important;
+    }
+    .s-desc .p3 {
+        margin-top: 15px !important;
+        line-height: 27px;
+    }
+
+}
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    .g-content .g-image::after {
+        height: 85%;
+    }
+}
